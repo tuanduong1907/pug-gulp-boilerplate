@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+// base
+html,
+body {
+  background-color: $color3;
+  color: $color2;
+  font-family: 'Inter', sans-serif;
+}
+.wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin-inline: auto;
+}
+@layer base {
+}
+// end base
+
+// keyframes
+@layer keyframes {
+}
+// end keyframes

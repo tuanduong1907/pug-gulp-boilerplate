@@ -1,0 +1,27 @@
+// reset
+@import "../abstracts/reset";
+// end reset
+
+// variables
+@import "../abstracts/variables";
+// end variables
+
+// mixins
+@import "../abstracts/mixins";
+// end mixins
+
+// base
+@import "../abstracts/base";
+// end base
+
+// resize image
+@import "../abstracts/wrapImgResize";
+// end resize image
+
+// header
+@import "../components/header";
+// end header
+
+// footer
+@import "../components/footer";
+// end footer

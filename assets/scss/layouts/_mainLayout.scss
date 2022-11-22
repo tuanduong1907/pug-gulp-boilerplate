@@ -1,0 +1,35 @@
+.mainLayout {
+  .imgBanner {
+    img {
+      margin-inline: auto;
+      height: 400px;
+    }
+  }
+  .heading {
+    @include text30;
+    text-align: center;
+    margin-top: 20px;
+  }
+  p {
+    margin-top: 20px;
+    @include text18;
+    line-height: 2;
+  }
+  h4 {
+    margin-top: 20px;
+    @include text16;
+  }
+  h5 {
+    margin-top: 20px;
+    @include text18;
+    font-weight: 400;
+  }
+  ul {
+    margin-block: 20px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+
+}
