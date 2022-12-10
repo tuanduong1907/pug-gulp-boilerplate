@@ -200,6 +200,7 @@ function watchFile() {
         series(cleanData, mergeData, buildLayouts, serverReload)
     );
     watch(paths.js, series(copyJs, serverReload));
+    watch(paths.plugins, series(copyPlugin, serverReload))
 }
 
 const develop = series(
